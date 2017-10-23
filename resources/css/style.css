@@ -1,8 +1,9 @@
 body{
   font-family: Helvetica;
   font-size:22px;
-  color: seashell;
+  color: grey;
   opacity:0.9;
+  background-color: black;
 }
 header{
   background-color: black;
@@ -24,4 +25,42 @@ ul span{
   position: relative;
   border: 2px solid green;
   margin-right: 40px;
+  text-decoration: underline;
+}
+
+/* Body */
+.hero img{
+  height:800px;
+  position: relative;
+  align-items: center;
+  top:100px;
+}
+.hero{
+  width: 100%;
+  border: 2px solid red;
+  position: relative;
+}
+.hero .textoverlay{
+  background-color: black;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  position: relative;
+  top: -400px;
+}
+.grid img{
+  height: 200px;
+  width: 300px;
+  display: inline-flex;
+  margin: 20px;
+  justify-content: space-between;
+  position: relative;
+
+}
+.grid{
+  display: flex;
+  width: 100%;
+  border: 2px solid blue;
+  position: relative;
 }
