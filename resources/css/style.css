@@ -18,12 +18,10 @@ header img{
   height: 50px;
   padding-top: 14px;
   padding-bottom: 15px;
-  border: 2px solid green;
 }
 ul li{
   display: inline-flex;
   position: relative;
-  border: 2px solid green;
   margin-right: 40px;
   text-decoration: underline;
 }
@@ -38,7 +36,6 @@ ul li{
 }
 .hero{
   width: 100%;
-  border: 2px solid red;
   position: relative;
   justify-content: center;
 }
@@ -61,7 +58,6 @@ ul li{
 .grid{
   display: flex;
   width: 60%;
-  border: 2px solid blue;
   position: relative;
   justify-content: center;
   margin-left: auto;
@@ -76,7 +72,6 @@ div h4{
 }
 
 .totm{
-  border: 2px solid white;
   position: relative;
   display: inline-block;
   justify-content: center;
@@ -85,32 +80,36 @@ div h4{
 
 /* Location */
 .location{
-  border: 2px solid green;
+  padding-top: 14px;
   height: 500px;
+  width: auto;
+  align-items: center;
 }
+
 .location img{
-  width: 100%;
-  justify-content: center;
   position: relative;
+  height: 500px;
+  width: 100%;
 }
 .location .section{
   background-color: black;
   text-align: center;
   width: 300px;
   margin-left: 40px;
-
+  position: relative;
 }
 .section ul{
   text-align: left;
   position: relative;
   padding: 30px;
 }
+
 .location .textoverlay{
   color: white;
   padding-top: 3px;
   padding-bottom: 3px;
   position: relative;
-  justify-content: space-s;
+  justify-content: space-around;
   top: -550px;
   align-items: center;
   display: flex;
@@ -129,7 +128,6 @@ div h4{
 
 .footer{
   color: white;
-  border: 2px solid white;
   text-align: center;
   margin: 20px;
 }
